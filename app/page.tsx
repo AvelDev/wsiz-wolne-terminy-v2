@@ -29,6 +29,14 @@ export default function Home() {
             {rows.length.toLocaleString("pl-PL")} rekordów załadowanych
           </span>
         )}
+        <a
+          href="https://github.com/AvelDev/wsiz-wolne-terminy-v2"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ml-auto text-xs text-muted-foreground hover:text-foreground transition-colors"
+        >
+          GitHub ↗
+        </a>
       </header>
 
       <Tabs value={activeTab} onValueChange={setActiveTab} className="flex flex-col flex-1 overflow-hidden">
