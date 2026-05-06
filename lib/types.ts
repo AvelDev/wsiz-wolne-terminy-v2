@@ -41,3 +41,9 @@ export interface ScrapeConfig {
   endId: number
   batchSize: number
 }
+
+export interface SavedScrape {
+  id: string
+  createdAt: number
+  rows: Row[]
+}
